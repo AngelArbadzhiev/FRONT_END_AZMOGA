@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Kelson Sans BG bold";
+    src: url("Kelson/Commercial/TTF/KelsonSans-Bold.ttf")
+}
+
+.heading {
+    color: #FF3864;
+    font-family: Kelson Sans BG bold, sans-serif;
+}
+
+.red-download-app-button{
+    background-color: #FF3864;
+    border-radius: 5px;
+    color: #F3F4F6;
+}
+
+.learn-more-btn{
+    background-color: transparent;
+    color: #82869E;
+}
+
+.advantages-of-scooty{
+    color:#261447;
+}
