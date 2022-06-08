@@ -3,22 +3,73 @@
     src: url("Kelson/Commercial/TTF/KelsonSans-Bold.ttf")
 }
 
+.body {
+    background-color: #f3f4f6;
+}
 .heading {
-    color: #FF3864;
+    width: 48.5px;
+    height: 21.5px;
+    margin: 0 313.5px 4px 0;
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0);
     font-family: Kelson Sans BG bold, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.51px;
+    text-align: left;
+    color: #ff3864;
 }
 
-.red-download-app-button{
-    background-color: #FF3864;
-    border-radius: 5px;
-    color: #F3F4F6;
+.menu {
+    height: 25.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;
 }
 
-.learn-more-btn{
+.menu-link {
+    height: 25.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;
+}
+
+.green-underline {
+    color: #261447;
+    text-align: center;
+    font-family: Kelson Sans BG bold, sans serif;
+    width: 167px;
+    height: 63.5px;
+    font-size: 47.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.68;
+    letter-spacing: -1.19px;
+    margin: 0 5.5px;
+}
+
+
+.red-download-app-button {
+    width: 117.5px;
+    height: 25.5px;
+    margin: 0 0 0 25px;
+    padding: 8px 18.5px 8px 16px;
+    border-radius: 2.5px;
+    background-color: #ff3864;
+}
+
+.learn-more-btn {
     background-color: transparent;
     color: #82869E;
 }
 
-.advantages-of-scooty{
-    color:#261447;
+.advantages-of-scooty {
+    background-color: #261447;
 }
